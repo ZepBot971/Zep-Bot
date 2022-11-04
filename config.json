@@ -1,84 +1,86 @@
 {
-	"facebookAccount": {
-		"email": "",
-		"password": "",
-		"2FASecret": "",
-		"proxy": null,
-		"userAgent": ""
-	},
-	"language": "vi",
-	"adminOnly": false,
-	"adminBot": [],
-	"nickNameBot": "GoatBot",
-	"prefix": "-",
-	"database": {
-		"type": "mongodb",
-		"uriMongodb": "",
-		"autoSyncWhenStart": true,
-		"notes": "type selects 'json' or 'sqlite' or 'mongodb'. If you choose mongodb, enter uri connect mongodb in the uriMongodb section, instructions to get uri connect mongodb at: https://youtu.be/z1f9urHW5xY. I recommend using 'mongodb' or 'sqlite', json is not recommended because it is not stable."
-	},
-	"timeZone": "Asia/Ho_Chi_Minh",
-	"credentials": {
-		"gmailAccount": {
-			"email": "",
-			"clientId": "",
-			"clientSecret": "",
-			"refreshToken": "",
-			"apiKey": ""
-		},
-		"gRecaptcha": {
-			"siteKey": "",
-			"secretKey": ""
-		}
-	},
-	"dashBoard": {
-		"enable": true,
-		"expireVerifyCode": 300000,
-		"port": 3001
-	},
-	"serverUptime": {
-		"enable": false,
-		"port": 3001,
-		"socket": {
-			"enable": true,
-			"channelName": "uptime",
-			"verifyToken": ""
-		}
-	},
-	"autoUptime": {
-		"enable": false,
-		"timeInterval": 180,
-		"url": "",
-		"notes": "the value of timeInterval is seconds, url is the url you want to send the request to (automatically detected for hosting glitch or replit)"
-	},
-	"autoRefreshFbstate": true,
-	"restartListenMqtt": {
-		"enable": true,
-		"timeRestart": 3600000,
-		"delayAfterStopListening": 1000,
-		"logNoti": true,
-		"notes": "You shouldn't edit this if you don't know what it is"
-	},
-	"logEvents": {
-		"disableAll": false,
-		"message": true,
-		"message_reaction": true,
-		"message_unsend": true,
-		"message_reply": true,
-		"event": true,
-		"read_receipt": false,
-		"typ": false,
-		"presence": false
-	},
-	"optionsFca": {
-		"forceLogin": true,
-		"listenEvents": true,
-		"updatePresence": true,
-		"listenTyping": true,
-		"logLevel": "error",
-		"selfListen": false,
-		"selfListenEvent": true,
-		"autoMarkDelivery": false,
-		"notes": "Document here: https://github.com/ntkhang03/fb-chat-api/blob/master/DOCS.md#apisetoptionsoptions "
-	}
+  "facebookAccount": {
+    "email": "",
+    "password": "",
+    "2FASecret": "",
+    "proxy": null,
+    "userAgent": ""
+  },
+  "language": "en",
+  "adminOnly": false,
+  "adminBot": [
+    "100007269275839"
+  ],
+  "nickNameBot": "GoatBot",
+  "prefix": "/",
+  "database": {
+    "type": "mongodb",
+    "uriMongodb": "mongodb+srv://ZEPBOT:b0iv0b2016@cluster0.9pgniue.mongodb.net/GoatBotV2?retryWrites=true&w=majority",
+    "autoSyncWhenStart": true,
+    "notes": "type selects 'json' or 'sqlite' or 'mongodb'. If you choose mongodb, enter uri connect mongodb in the uriMongodb section, instructions to get uri connect mongodb at: https://youtu.be/z1f9urHW5xY. I recommend using 'mongodb' or 'sqlite', json is not recommended because it is not stable."
+  },
+  "timeZone": "Asia/Ho_Chi_Minh",
+  "credentials": {
+    "gmailAccount": {
+      "email": "zepbot971@gmail.com",
+      "clientId": "544075023349-7597q1sbj2iosve4bo0tko942s8lr5l0.apps.googleusercontent.com",
+      "clientSecret": "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",
+      "refreshToken": "1//046VHW0QFbqacCgYIARAAGAQSNwF-L9IrGg58rRcrdpfgCpwwVq_wPwkf2bZFy_xZfLvkqXA1KEhdgDqjxqkOP5seMOudLuyXdN4",
+      "apiKey": ""
+    },
+    "gRecaptcha": {
+      "siteKey": "6LeDptkiAAAAAJt8OFQmW-9kUTTi0P1UkGQi_Dp_",
+      "secretKey": "6LeDptkiAAAAAPyRNboFQ5anQLPrl6wyFl0sJfbR"
+    }
+  },
+  "dashBoard": {
+    "enable": true,
+    "expireVerifyCode": 300000,
+    "port": 3001
+  },
+  "serverUptime": {
+    "enable": false,
+    "port": 3001,
+    "socket": {
+      "enable": true,
+      "channelName": "uptime",
+      "verifyToken": ""
+    }
+  },
+  "autoUptime": {
+    "enable": false,
+    "timeInterval": 180,
+    "url": "",
+    "notes": "the value of timeInterval is seconds, url is the url you want to send the request to (automatically detected for hosting glitch or replit)"
+  },
+  "autoRefreshFbstate": true,
+  "restartListenMqtt": {
+    "enable": true,
+    "timeRestart": 3600000,
+    "delayAfterStopListening": 1000,
+    "logNoti": true,
+    "notes": "You shouldn't edit this if you don't know what it is"
+  },
+  "logEvents": {
+    "disableAll": false,
+    "message": true,
+    "message_reaction": true,
+    "message_unsend": true,
+    "message_reply": true,
+    "event": true,
+    "read_receipt": false,
+    "typ": false,
+    "presence": false
+  },
+  "optionsFca": {
+    "forceLogin": true,
+    "listenEvents": true,
+    "updatePresence": true,
+    "listenTyping": true,
+    "logLevel": "error",
+    "selfListen": false,
+    "selfListenEvent": true,
+    "autoMarkDelivery": false,
+    "notes": "Document here: https://github.com/ntkhang03/fb-chat-api/blob/master/DOCS.md#apisetoptionsoptions "
+  }
 }
